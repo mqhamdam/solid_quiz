@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.quiz {
+  margin-top: 20px;
+}
+
+.question-section {
+  margin-bottom: 20px;
+}
+
+.question-text {
+  margin-bottom: 12px;
+}
+
+.answer-section button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.answer-section button:hover {
+  background-color: #45a049;
+}
+
+.score-section {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.score-section button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.score-section button:hover {
+  background-color: #0069d9;
+}
+
+.congrats-message {
+  color: green;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cheer-up-message {
+  color: orange;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.answer-review {
+  text-align: left;
+  margin-top: 10px;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.answer-review p {
+  margin: 5px 0;
+}
